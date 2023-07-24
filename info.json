@@ -1,0 +1,20 @@
+{
+    "Specialty":{
+        "SII":{
+            "Course":{
+                "Algorithms And Complexity" : {
+                    "Lecture": {
+                        "l1":{ "title": "introduction de algorithms and data structures", "url" : ""}
+                    },
+                "Resolution Of Problems" : {
+                    "Lecture" :{
+                        "l1": {
+                            "title" : "introduction to resolution of problems", "url" : ""
+                        }
+                    }
+                }
+                }
+            }
+        }
+    }
+}
