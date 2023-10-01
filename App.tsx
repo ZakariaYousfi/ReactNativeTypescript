@@ -16,8 +16,8 @@ export default function App() {
             <Text style = {styleAppText.titleText}>KHBEESHERS DEN</Text>
             <Image source = {{ uri: 'http://192.168.8.1/res/icon_signal_03.png', }} style={{width: 200, height: 200}}></Image>
             <Text style = {styleAppText.titleText}>After Picture</Text>
-            { click ? <Specialty name = {click} changeSpecialty = {clicked} info ={info["Specialty"][click]}> </Specialty> :       <><Button onPress={() => clicked('ACAD')} title = 'ACAD'></Button>
-                              <Button onPress={() => clicked('ISIL')} title = 'ISIL'></Button>
+            { click ? <Specialty name = {click} changeSpecialty = {clicked} info ={info["Specialty"][click]}></Specialty> :       <><Button onPress={() => clicked('SII')} title = 'SII'></Button>
+                              <Button onPress={() => clicked('SII')} title = 'SII'></Button>
                               <Button onPress={() => clicked('SII')} title = 'SII'></Button></>
              }
 
@@ -57,8 +57,8 @@ const Course = (props: CourseProps) => {
   return <ScrollView>
         <View style = {{flex: 1, flexDirection:'row'}}>   
                <View style={{flex: 1, backgroundColor: 'red'}}><Button title = "Lectures"></Button></View>
-               <View style={{flex: 2, backgroundColor: 'darkorange'}}><Button title = "ProblemSession"></Button> </View>
-               <View style={{flex: 3, backgroundColor: 'green'}}><Button title = "PracticalSession"></Button> </View>
+               <View style={{flex: 2, backgroundColor: 'darkorange'}}><Button title = "ProblemSession"></Button></View>
+               <View style={{flex: 3, backgroundColor: 'green'}}><Button title = "PracticalSession"></Button></View>
           </View>   
           <View>
             </View> 
